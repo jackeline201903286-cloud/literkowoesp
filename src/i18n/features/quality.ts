@@ -18,4 +18,10 @@ const uk: QualityTexts = {
   options: { auto: 'Авто', high: 'Висока', medium: 'Середня', low: 'Низька' },
 };
 
-export const quality = { pl, uk };
+const es: QualityTexts = {
+  title: 'Calidad gráfica',
+  hint: 'La nueva calidad se aplicará a partir del siguiente nivel',
+  options: { auto: 'Auto', high: 'Alta', medium: 'Media', low: 'Baja' },
+};
+
+export const quality = { pl, uk, es };
