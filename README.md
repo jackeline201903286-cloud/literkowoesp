@@ -1,6 +1,6 @@
 # Literkowo Traducción a Español
 
-Original: una aventura gratuita de mecanografía para niños: aprende a escribir al tacto en polaco o inglés derrotando monstruos de palabras en un mundo 3D de bloques. 
+Original: una aventura gratuita de mecanografía para niños: aprende a escribir al tacto en polaco o inglés derrotando monstruos de palabras en un mundo 3D de bloques.
 
 **Jugar Original:** https://veelenga.github.io/literkowo/
 
@@ -11,4 +11,3 @@ Original: una aventura gratuita de mecanografía para niños: aprende a escribir
 - **Arena y tienda.** Oleadas infinitas con medallas una vez que se supera el primer mundo, y monedas para comprar mascotas, sombreros y personajes, donde cada mascota y sombrero tiene un pequeño poder.
 
 Interfaz en polaco o ucraniano, palabras en polaco o inglés. Varios perfiles de jugador en un mismo dispositivo, con estrellas y progreso guardados en el navegador. La música y los efectos de sonido se generan en tiempo real. Gratis, sin anuncios y sin cuenta.
-
