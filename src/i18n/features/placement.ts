@@ -34,4 +34,22 @@ const uk: typeof pl = {
   fingersHint: 'Так пальці дістають до пропущених клавіш. Кожен колір означає один палець.',
 };
 
-export const placement = { pl, uk };
+const es: typeof pl = {
+  title: 'Prueba de nivel',
+  knowsTyping: 'Ya sé escribir',
+  rule: 'Escribe las palabras que veas. Cada etapa dura {seconds} segundos.',
+  close: 'Cerrar',
+  stage: 'Etapa {stage} de {count}',
+  stageBanner: 'Etapa {stage}: {region}',
+  secondsLeft: '{seconds} s',
+  startsHere: 'Empiezas aquí: {region}',
+  fromStart: 'Empezaremos desde el principio. ¡Será lo mejor!',
+  skippedHint: 'Los niveles omitidos siguen abiertos en el mapa. Vuelve a ellos cuando quieras.',
+  beginnerHint: 'Primero entrenaremos los dedos de la fila central, paso a paso.',
+  stagesPassed: 'Etapas superadas: {passed} de {count}',
+  toMap: 'Al mapa',
+  fingersTitle: 'Dedos listos',
+  fingersHint: 'Así llegan los dedos a las teclas omitidas. Cada color es un dedo.',
+};
+
+export const placement = { pl, uk, es };
