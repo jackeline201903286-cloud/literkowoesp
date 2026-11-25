@@ -64,4 +64,37 @@ const uk: typeof pl = {
   },
 };
 
-export const enemyTypes = { pl, uk };
+const es: typeof pl = {
+  thief: {
+    stolen: '¡El ladrón se llevó puntos!',
+    recovered: '¡Botín recuperado!',
+  },
+  names: {
+    jumper: 'Saltarín',
+    balloon: 'Globo',
+    bat: 'Murciélago',
+    swarm: 'Enjambre',
+    splitter: 'Divisor',
+    shield: 'Escudero',
+    ghost: 'Fantasma',
+    chameleon: 'Camaleón',
+    bull: 'Toro',
+    nest: 'Nido',
+    thief: 'Ladrón',
+  },
+  hints: {
+    jumper: 'Escribe la misma letra',
+    balloon: 'Atrápalo antes de que vuele lejos',
+    bat: 'Escribe la palabra antes de que suelte una bomba',
+    swarm: 'Busca la letra que brilla',
+    splitter: 'Al recibir un golpe se parte en dos mitades más pequeñas',
+    shield: 'Escribe la clave del escudo y verás la palabra',
+    ghost: 'Desaparece y vuelve, así que recuerda su palabra',
+    chameleon: 'Cambia de palabra hasta que escribas la primera letra',
+    bull: 'Cada letra lo empuja hacia atrás',
+    nest: 'Incuba crías hasta que escribas su palabra',
+    thief: 'Atrápalo antes de que escape con tus puntos',
+  },
+};
+
+export const enemyTypes = { pl, uk, es };
