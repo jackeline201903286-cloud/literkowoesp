@@ -34,4 +34,22 @@ const uk: typeof pl = {
   },
 };
 
-export const course = { pl, uk };
+const es: typeof pl = {
+  kinds: {
+    learn: 'Tecla nueva',
+    practice: 'Práctica',
+    review: 'Repaso',
+  },
+  hints: {
+    practice: 'Practicamos con palabras cortas. ¡Primero con precisión, luego rápido!',
+    review: 'Repasamos todas las teclas aprendidas. ¡Al final te espera un Mini Guardián!',
+  },
+  backToMap: 'Volver al mapa',
+  locks: {
+    window: 'Completa primero los niveles anteriores',
+    review: 'Supera los niveles antes del repaso',
+    boss: 'Supera el repaso antes del jefe',
+  },
+};
+
+export const course = { pl, uk, es };
