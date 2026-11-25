@@ -6,4 +6,8 @@ const uk: typeof pl = {
   warning: 'Злиття!',
 };
 
-export const mergeEnemies = { pl, uk };
+const es: typeof pl = {
+  warning: '¡Fusión!',
+};
+
+export const mergeEnemies = { pl, uk, es };
