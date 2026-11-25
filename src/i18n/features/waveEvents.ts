@@ -16,4 +16,13 @@ const uk: typeof pl = {
   treasure: 'Скарб!',
 };
 
-export const waveEvents = { pl, uk };
+const es: typeof pl = {
+  banners: {
+    rush: '¡Oleada!',
+    meteors: '¡Lluvia de meteoros!',
+    chest: '¡Cofre del tesoro!',
+  },
+  treasure: '¡Tesoro!',
+};
+
+export const waveEvents = { pl, uk, es };
