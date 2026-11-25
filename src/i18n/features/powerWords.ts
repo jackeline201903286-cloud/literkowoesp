@@ -16,4 +16,13 @@ const uk: typeof pl = {
   },
 };
 
-export const powerWords = { pl, uk };
+const es: typeof pl = {
+  powers: {
+    freeze: 'Hielo',
+    storm: 'Tormenta',
+    quake: 'Temblor',
+    shield: 'Escudo',
+  },
+};
+
+export const powerWords = { pl, uk, es };
