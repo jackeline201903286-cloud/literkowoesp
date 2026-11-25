@@ -22,7 +22,11 @@ interface SettingsTexts {
   motion: ChoiceTexts<ReducedMotionChoice>;
 }
 
-const LANGUAGE_NAMES: Record<UiLanguage, string> = { pl: 'Polski', uk: 'Українська' };
+const LANGUAGE_NAMES: Record<UiLanguage, string> = {
+  pl: 'Polski',
+  uk: 'Українська',
+  es: 'Español',
+};
 
 const pl: SettingsTexts = {
   open: 'Ustawienia',
@@ -68,4 +72,26 @@ const uk: SettingsTexts = {
   },
 };
 
-export const settings = { pl, uk };
+const es: SettingsTexts = {
+  open: 'Ajustes',
+  title: 'Ajustes',
+  back: 'Volver',
+  effects: 'Efectos de sonido',
+  music: 'Música',
+  language: 'Idioma del juego',
+  languages: LANGUAGE_NAMES,
+  profile: 'Perfil',
+  profileHint: '{name}. Al borrarlo se elimina todo el progreso en este dispositivo',
+  keyboard: {
+    title: 'Teclado en pantalla',
+    hint: 'En teléfono. Se aplicará a partir del siguiente nivel',
+    options: { auto: 'Auto', always: 'Siempre', never: 'Nunca' },
+  },
+  motion: {
+    title: 'Menos movimiento',
+    hint: 'Auto sigue la configuración del dispositivo',
+    options: { auto: 'Auto', always: 'Siempre' },
+  },
+};
+
+export const settings = { pl, uk, es };
