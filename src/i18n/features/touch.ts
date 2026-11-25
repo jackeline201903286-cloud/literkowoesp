@@ -28,4 +28,14 @@ const uk: TouchTexts = {
   closeHint: 'Закрити підказку',
 };
 
-export const touch = { pl, uk };
+const es: TouchTexts = {
+  tapToType: 'Toca para escribir',
+  typingField: 'Campo de escritura',
+  pause: 'Pausa',
+  resume: 'Seguir jugando',
+  phoneKeyboard: 'Teclado del teléfono',
+  rotateHint: 'Gira el teléfono, será más cómodo',
+  closeHint: 'Cerrar pista',
+};
+
+export const touch = { pl, uk, es };
