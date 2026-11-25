@@ -30,4 +30,20 @@ const uk: typeof pl = {
   },
 };
 
-export const progression = { pl, uk };
+const es: typeof pl = {
+  xp: 'XP',
+  xpGain: '+{xp} XP',
+  coins: 'Monedas',
+  playerLevel: 'Nivel {level}',
+  levelUp: '¡Nuevo nivel!',
+  ranks: {
+    chick: 'Polluelo',
+    apprentice: 'Aprendiz',
+    letterHunter: 'Cazaletras',
+    wordGuardian: 'Guardián de Palabras',
+    keyboardMaster: 'Maestro del Teclado',
+    legend: 'Leyenda',
+  },
+};
+
+export const progression = { pl, uk, es };
