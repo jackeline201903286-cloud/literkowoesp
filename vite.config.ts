@@ -5,7 +5,7 @@ import { seoPlugin } from './src/seo/vitePlugin.ts';
 
 const THREE_CHUNK_LIMIT_KB = 670;
 
-const PAGES_BASE = '/literkowo/';
+const PAGES_BASE = '/literkowoesp/';
 const ROOT_BASE = '/';
 const base = process.env.GITHUB_PAGES ? PAGES_BASE : ROOT_BASE;
 
