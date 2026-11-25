@@ -24,4 +24,14 @@ const uk: WorldMapTexts = {
   },
 };
 
-export const worldMap = { pl, uk };
+const es: WorldMapTexts = {
+  moods: {
+    meadow: 'Pradera soleada donde comienza la aventura',
+    forest: 'Árboles que susurran esconden secretos del bosque',
+    mountains: 'Cumbres altas para dedos valientes',
+    cave: 'Cristales brillantes iluminan la oscuridad',
+    island: 'Playa cálida y letras con colita',
+  },
+};
+
+export const worldMap = { pl, uk, es };
