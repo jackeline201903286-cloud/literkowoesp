@@ -13,4 +13,9 @@ const uk: NoticeTexts = {
   unsaved: 'Поступ не збережеться на цьому пристрої. Збережи його у файл у налаштуваннях',
 };
 
-export const notice = { pl, uk };
+const es: NoticeTexts = {
+  close: 'Cerrar',
+  unsaved: 'El progreso no se guardará en este dispositivo. Guárdalo en un archivo desde los ajustes',
+};
+
+export const notice = { pl, uk, es };
