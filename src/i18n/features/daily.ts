@@ -82,4 +82,46 @@ const uk: typeof pl = {
   },
 };
 
-export const daily = { pl, uk };
+const es: typeof pl = {
+  name: 'Reto del día',
+  title: 'Reto del día: {format}',
+  formats: {
+    fog: { name: 'Niebla', rule: 'Solo se ve la siguiente letra de la palabra.' },
+    twoMinutes: {
+      name: 'Dos minutos',
+      rule: 'Cuatro palabras a la vez y sin corazones. ¿Cuántas logras escribir?',
+    },
+    darkness: { name: 'Oscuridad', rule: 'El teclado no da pistas. Mira las palabras.' },
+    longWords: { name: 'Palabras largas', rule: 'Palabras de 5 a 8 letras, pero más despacio.' },
+    oneHeart: { name: 'Un corazón', rule: 'Solo un corazón, pero más despacio. ¡Ten cuidado!' },
+    bosses: { name: 'Jefes', rule: 'Tres jefes, uno tras otro.' },
+    bigWave: { name: 'Gran oleada', rule: 'Oleada tras oleada durante tres minutos enteros.' },
+  },
+  minutes: ['1 minuto', '2 minutos', '3 minutos'],
+  weekdays: ['Lu', 'Ma', 'Mi', 'Ju', 'Vi', 'Sá', 'Do'],
+  stamped: '{day}: sello',
+  today: '{day}: hoy',
+  tries: 'Intentos: {used} de {total}',
+  weekStreak: 'Semanas seguidas: {weeks}',
+  board: 'Hoy: {players}',
+  boardEntry: '{name} {medal}',
+  family: 'Cofre familiar',
+  familyCount: '{stamps} de {goal}',
+  tomorrow: 'Nuevo reto mañana',
+  waiting: 'El reto del día te espera',
+  doneToday: 'Reto del día: {medal}',
+  bestToday: '¡Mejor intento del día!',
+  nextTime: '{medal}. {next}: {time} y {accuracy}%',
+  nextPace: '{medal}. {next}: {pace} palabras por minuto y {accuracy}%',
+  time: 'Tiempo',
+  pace: 'Ritmo',
+  coins: {
+    run: 'Por palabras',
+    stamp: 'Sello',
+    medal: 'Medalla',
+    chests: 'Cofre',
+    family: 'Cofre familiar',
+  },
+};
+
+export const daily = { pl, uk, es };
