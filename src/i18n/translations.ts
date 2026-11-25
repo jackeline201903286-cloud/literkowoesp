@@ -170,7 +170,8 @@ const es: Translation = {
   level: 'Nivel',
   bossLevel: 'Guardián de la región',
   newKeys: 'Teclas nuevas',
-  placeFingers: 'Coloca los dedos en la fila central: mano izquierda en A S D F, derecha en J K L ;',
+  placeFingers:
+    'Coloca los dedos en la fila central: mano izquierda en A S D F, derecha en J K L ;',
   letsGo: '¡Empezamos!',
   warmup: 'Calentamiento',
   words: 'Palabras',

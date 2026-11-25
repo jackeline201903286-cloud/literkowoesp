@@ -15,7 +15,8 @@ const uk: NoticeTexts = {
 
 const es: NoticeTexts = {
   close: 'Cerrar',
-  unsaved: 'El progreso no se guardará en este dispositivo. Guárdalo en un archivo desde los ajustes',
+  unsaved:
+    'El progreso no se guardará en este dispositivo. Guárdalo en un archivo desde los ajustes',
 };
 
 export const notice = { pl, uk, es };

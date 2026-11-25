@@ -341,7 +341,10 @@ const es: typeof pl = {
   missing: 'Faltan {coins}',
   rank: 'Rango: {rank}',
   arenaGoals: { gold: 'Arena: medalla de oro', wave: 'Arena: oleada {wave}' },
-  arenaHints: { gold: 'Consigue una medalla de oro en la arena', wave: 'Sobrevive a {wave} oleadas en la arena' },
+  arenaHints: {
+    gold: 'Consigue una medalla de oro en la arena',
+    wave: 'Sobrevive a {wave} oleadas en la arena',
+  },
   free: 'Gratis',
   owned: 'Lo tienes',
   newItem: 'Nuevo tesoro: {name}',
@@ -359,10 +362,12 @@ const es: typeof pl = {
       catchThief: '{times} por nivel atrapa a un ladrón antes de que robe algo',
       catchGhost: '{times} por nivel espanta a un fantasma cuando el héroe está en apuros',
       catchBat: '{times} por nivel atrapa a un murciélago cuando el héroe está en apuros',
-      catchBomber: '{times} por nivel apaga la mecha de un enemigo con bomba cuando el héroe está en apuros',
+      catchBomber:
+        '{times} por nivel apaga la mecha de un enemigo con bomba cuando el héroe está en apuros',
       freezeBoard: 'Una vez por nivel congela a todos los enemigos cuando el héroe está en apuros',
       restoreHeart: '{times} por nivel devuelve un corazón perdido cuando el héroe está en apuros',
-      stopNear: 'Tras un combo de {combo}, detiene un momento a los enemigos cerca del héroe cuando está en apuros',
+      stopNear:
+        'Tras un combo de {combo}, detiene un momento a los enemigos cerca del héroe cuando está en apuros',
       coins: 'Recoge un {percent}% más de monedas',
       xp: 'Otorga un {percent}% más de XP',
       solidGhosts: 'Los fantasmas dejan de desaparecer',
@@ -436,7 +441,10 @@ const es: typeof pl = {
     crown: { name: 'Corona', description: 'Solo para verdaderas leyendas.' },
     beanie: { name: 'Gorro con pompón', description: 'Un gorro abrigado para días helados.' },
     pirate: { name: 'Sombrero pirata', description: 'Para cazadores de tesoros.' },
-    helmet: { name: 'Casco de caballero', description: 'Un casco resistente que protege de explosiones.' },
+    helmet: {
+      name: 'Casco de caballero',
+      description: 'Un casco resistente que protege de explosiones.',
+    },
     laurel: { name: 'Corona de laurel', description: 'Premio por el oro en la arena.' },
   },
   trophies: {
@@ -459,12 +467,18 @@ const es: typeof pl = {
       name: 'Estrella de todas las regiones',
       hint: 'Consigue tres estrellas en cada nivel de cada región',
     },
-    starterSkins: { name: 'Cambia-aspectos', hint: 'Juega con cada uno de los primeros seis personajes' },
+    starterSkins: {
+      name: 'Cambia-aspectos',
+      hint: 'Juega con cada uno de los primeros seis personajes',
+    },
     firstItem: { name: 'Primera compra', hint: 'Compra o reclama tu primer objeto en la tienda' },
     itemsOwned: { name: 'Coleccionista', hint: 'Ten {count} objetos de la tienda' },
     counters: {
       perfectLevels: { name: 'Sin errores', hint: 'Completa un nivel sin ningún error' },
-      bestWpm: { name: 'Ritmo {goal}', hint: 'Escribe {goal} palabras por minuto en un nivel con estrella' },
+      bestWpm: {
+        name: 'Ritmo {goal}',
+        hint: 'Escribe {goal} palabras por minuto en un nivel con estrella',
+      },
       wordsTyped: { name: '{goal} palabras', hint: 'Escribe {goal} palabras en total' },
       bossesBeaten: { name: 'Cazajefes', hint: 'Derrota a {goal} jefes, también en la arena' },
       powerWords: { name: 'Palabras doradas', hint: 'Escribe {goal} palabras de poder doradas' },
