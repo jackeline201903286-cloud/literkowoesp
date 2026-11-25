@@ -25,4 +25,13 @@ const uk: ProgressBackupTexts = {
   importFailed: 'Цей файл не вдається завантажити',
 };
 
-export const progressBackup = { pl, uk };
+const es: ProgressBackupTexts = {
+  title: 'Copia de progreso',
+  hint: 'El progreso de todos los perfiles en un solo archivo. Los perfiles del archivo reemplazarán a los mismos perfiles aquí',
+  export: 'Guardar en archivo',
+  import: 'Cargar desde archivo',
+  imported: 'Progreso cargado',
+  importFailed: 'No se puede cargar este archivo',
+};
+
+export const progressBackup = { pl, uk, es };
