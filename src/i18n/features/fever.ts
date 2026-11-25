@@ -20,4 +20,15 @@ const uk: typeof pl = {
   },
 };
 
-export const fever = { pl, uk };
+const es: typeof pl = {
+  banner: '¡Fiebre!',
+  callouts: {
+    super: '¡Súper!',
+    mega: '¡Mega!',
+    ultra: '¡Ultra!',
+    legend: '¡Leyenda!',
+    master: '¡Maestro!',
+  },
+};
+
+export const fever = { pl, uk, es };
