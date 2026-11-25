@@ -72,4 +72,41 @@ const uk: typeof pl = {
   endRun: 'Завершити',
 };
 
-export const arena = { pl, uk };
+const es: typeof pl = {
+  title: 'Arena',
+  open: 'Arena',
+  back: 'Mapa',
+  mode: 'Modo',
+  wave: 'Oleada {wave}',
+  bossShield: '¡Escudo por el jefe!',
+  keySets: 'Teclas',
+  difficulty: 'Dificultad',
+  difficulties: {
+    calm: 'Tranquilo',
+    normal: 'Normal',
+    fast: 'Rápido',
+    frenzy: 'Frenesí',
+  },
+  difficultyLocked: 'Plata en {level} desbloqueará {next}',
+  endless: {
+    name: 'Sin fin',
+    rule: 'Oleada tras oleada, cada una un poco más rápida. ¿Cuánto aguantarás?',
+    best: 'Récord: oleada {wave}',
+    noBest: 'Sin récord todavía',
+  },
+  medals: {
+    none: 'Sin medalla',
+    bronze: 'Bronce',
+    silver: 'Plata',
+    gold: 'Oro',
+  },
+  nextMedal: '{medal}. {next}: oleada {wave} y {accuracy}%',
+  topMedal: '¡Oro! Es la mejor medalla',
+  newRecord: '¡Nuevo récord!',
+  goodRun: '¡Buen trabajo!',
+  waves: 'Oleadas',
+  again: 'Intentar de nuevo',
+  endRun: 'Terminar',
+};
+
+export const arena = { pl, uk, es };
