@@ -38,4 +38,24 @@ const uk: typeof pl = {
   },
 };
 
-export const mastery = { pl, uk };
+const es: typeof pl = {
+  levels: {
+    none: 'Tecla nueva',
+    learning: 'Aprendiendo',
+    solid: 'Seguro',
+    mastered: 'Dominada',
+  },
+  keys: 'Teclas',
+  noMistakes: 'Sin errores',
+  meter: 'Teclas dominadas: {mastered} de {total}',
+  masteredOne: 'Dominada: {keys}',
+  masteredMany: 'Dominadas: {keys}',
+  heatmap: 'Precisión de teclas',
+  legend: {
+    good: 'Bien',
+    weak: 'Por practicar',
+    empty: 'Sin datos',
+  },
+};
+
+export const mastery = { pl, uk, es };
